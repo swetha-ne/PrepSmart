@@ -11,7 +11,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   const [openAuthModal, setOpenAuthModal] = useState(false);
-  const [currentPage, setCurrentPage] = useState("Login");
+  const [currentPage, setCurrentPage] = useState("login");
 
   const handleCTA = () => {};
   return (
